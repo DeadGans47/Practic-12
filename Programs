@@ -1,0 +1,41 @@
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        double num1 = 4;
+        double num2 = 5;
+        Console.WriteLine($"Сложение: {Calculator.Add(num1 , num2)}");
+        Console.WriteLine($"Вычитание: {Calculator.Subtract(num1, num2)}");
+        Console.WriteLine($"Умножение: {Calculator.Multiply(num1, num2)}");
+        Console.WriteLine($"Деление: {Calculator.Divide(num1, num2)}");
+    }
+}
+
+
+internal class Program
+ {
+     static void Main(string[] args)
+     {
+         ProgramConfig.ProgramInfo();
+     }
+ }
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        ObjectCounter num1 = new ObjectCounter();
+        ObjectCounter num2 = new ObjectCounter();
+        ObjectCounter num3 = new ObjectCounter();
+
+        Console.WriteLine($"Создано объектов: {ObjectCounter.GetCounter()}");
+    }
+}
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        Settings.PrintConfigPath();
+    }
+}
