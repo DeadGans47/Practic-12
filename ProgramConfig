@@ -1,0 +1,10 @@
+ internal class ProgramConfig
+ {
+     public const string version = "1.0";
+     public const string DeveloperName = "Microsoft";
+
+     public static void ProgramInfo()
+     {
+         Console.WriteLine($"Весрия: {version} , разработчик: {DeveloperName}");
+     }
+ }
